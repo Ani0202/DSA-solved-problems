@@ -34,6 +34,7 @@ class Solution:
     def solve(self, A, B):
         n = len(A)
         dp = [[0 for i in range(B+1)] for j in range(n+1)]
+        
         for i in range(n+1):
             dp[i][0] = 1
 
