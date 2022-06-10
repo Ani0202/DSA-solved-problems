@@ -32,6 +32,3 @@ class Solution:
             twos = (twos ^ elem) & ~ones
 
         return ones
-
-
-
